@@ -11,8 +11,9 @@ GENRES = []
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
- def genre=(genre)
+  
+  def genre=(genre)
    @genre=genre
-   GENRES<<genres
+   GENRES<< genres
  end
 end
